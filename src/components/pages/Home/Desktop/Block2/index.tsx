@@ -75,7 +75,7 @@ const Block2 = () => {
           <div style={box1Text1}>MEGA ROAD...</div>
           <div style={{ minHeight: 1 }} />
           <div style={box1Text2}>
-            aims to create a strong IP from a new standard for the development of multiple series of Fidelion. Compared to the traditional mobile game market, which one IP can be only used in one singe game development, Mega Road has relatively higher potential to be
+            aims to create a strong IP from a new standard for the development of multiple series of Fidelion. Compared to the traditional mobile game market, which one IP can be only used in one single game development, Mega Road has relatively higher potential to be{'\n'}
             expanded for numerous series of contents. This is the first development game of Project Fidelion, and it will be a long-term game development project.{'\n\n'}
 
             Mega Road will create a solid foundation for the entire project by organizing it in a specialized environment centered on blockchain and metaverse. This will lead the team to create a framework of the project and continuously releasing the outstanding games to increase the value of IP.{'\n\n'}
