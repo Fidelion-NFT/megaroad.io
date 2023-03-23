@@ -32,7 +32,7 @@ const Block4 = () => {
         <div style={box1}>
           <div style={box1Text1}>
             <span style={box1Text2}>It is 2069,</span>
-            Will is on a journey to find his lost friend Elaine, accompanied by
+            Willi is on a journey to find his lost friend Elaine, accompanied by
             Mobi, a broken robot, and Jeffrey, a brilliant yet eccentric scientist. After Jeffrey saves Willi from the unforgiving desert, she senses the adventure and excitement that lie ahead and suggests that Willi bring her bolts from battles to create powerful weapons.
             Despite being confined to a wheelchair, Jeffrey's love for creating explosive gadgets keeps her alive and even brings Mobi back to life. However, their journey is fraught with danger, as nuclear bombs have unleashed terrifying mutants onto the streets.
             Willi and his companions must fight through obstacles and adversaries to reunite with Elaine, pushing themselves to the brink of exhaustion. Will they be able to survive this chaos and find Elaine? Follow their adventure to find out!
