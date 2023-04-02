@@ -11,8 +11,7 @@ export const container: CSSProperties = {
 };
 
 export const image1: CSSProperties = {
-  height: 47,
-  width: 180,
+  width: 203,
 };
 
 export const row: CSSProperties = {

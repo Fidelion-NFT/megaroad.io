@@ -8,7 +8,7 @@ interface Props {
   h1?: number,
   h2?: number,
   gap: number,
-  style: CSSProperties,
+  style?: CSSProperties,
 }
 const DirectedBy = ({ h1, h2, gap, style }: Props) => (
   <div style={style}>

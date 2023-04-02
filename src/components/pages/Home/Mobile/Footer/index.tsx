@@ -1,7 +1,7 @@
 import React from 'react';
 
 import { snsIcon } from 'components/pages/Home/Desktop/Footer/styles';
-import { CDN_URL } from 'constants/values';
+import { CDN_URL, CDN_URL_M } from 'constants/values';
 
 import {
   container,
@@ -13,11 +13,11 @@ import {
 
 const Footer = () => (
   <div style={container}>
-    <div style={{ minHeight: 28 }} />
+    <div style={{ minHeight: 120 }} />
     <a href="https://fidelion.io" target="_blank">
-      <img alt="fidelion" src={`${CDN_URL}/202303/fidelion-logo_366x96.png`} style={image1} />
+      <img alt="fidelion" src={`${CDN_URL_M}/m-fidelion-logo_203x123.png`} style={image1} />
     </a>
-    <div style={{ minHeight: 66 }} />
+    <div style={{ minHeight: 120 }} />
     <div style={row}>
       <a href="https://twitter.com/FidelionNFT" target="_blank">
         <img alt="twitter" src={`${CDN_URL}/202303/twitter_32x32.png`} style={snsIcon} />

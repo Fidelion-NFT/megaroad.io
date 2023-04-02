@@ -1,29 +1,28 @@
 import React from 'react';
 
-import { CDN_URL } from 'constants/values';
+import { CDN_URL_M } from 'constants/values';
 
+import Block1 from './Block1';
+import Block2 from './Block2';
+import Block3 from './Block3';
 import Footer from './Footer';
 import Header from './Header';
-
-const blockList = Array.from({ length: 15 }).map((_, idx) => ({
-  url: `${CDN_URL}/202303/mobile/${idx + 1}.png`,
-}));
+import ImageBlock from './ImageBlock';
 
 const MobileHome = () => (
-  <div>
+  <div style={{ overflow: 'hidden' }}>
     <Header />
-    {blockList.map(({ url }, idx) => (
-      <img
-        alt="mobile"
-        key={idx.toString()}
-        src={url}
-        style={{
-          display: 'flex',
-          verticalAlign: 'center',
-          width: '100%',
-        }}
-      />
-    ))}
+    <Block1 />
+    <Block2 />
+    <Block3 />
+    <ImageBlock backgroundColor="#BE63FF" url={`${CDN_URL_M}/7-2.png`} />
+    <ImageBlock backgroundColor="#B4FF00" url={`${CDN_URL_M}/8-2.png`} />
+    <ImageBlock backgroundColor="#fff" url={`${CDN_URL_M}/9-2.png`} />
+    <ImageBlock backgroundColor="#FB3B48" url={`${CDN_URL_M}/10-2.png`} />
+    <ImageBlock backgroundColor="#FFDF00" url={`${CDN_URL_M}/11-2.png`} />
+    <ImageBlock backgroundColor="#ABECE4" url={`${CDN_URL_M}/12-2.png`} />
+    <ImageBlock backgroundColor="#D5D5D5" url={`${CDN_URL_M}/13-2.png`} />
+    <ImageBlock backgroundColor="#FFC52E" url={`${CDN_URL_M}/14-2.png`} />
     <Footer />
   </div>
 );

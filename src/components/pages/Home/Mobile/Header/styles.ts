@@ -18,3 +18,13 @@ export const image2: CSSProperties = {
   height: 25,
   width: 28,
 };
+
+export const fixedLeft1: CSSProperties = {
+  cursor: 'pointer',
+  height: 123,
+  left: 18,
+  position: 'fixed',
+  top: 80,
+  width: 66,
+  zIndex: 9999,
+};
