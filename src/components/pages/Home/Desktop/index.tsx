@@ -17,6 +17,7 @@ import Block14 from './Block14';
 import Block15 from './Block15';
 import Footer from './Footer';
 import Menu from './Menu';
+import SoundButton from './SoundButton';
 
 const Desktop = () => {
   return (
@@ -39,6 +40,7 @@ const Desktop = () => {
       <Block14 />
       <Block15 />
       <Footer />
+      <SoundButton />
     </>
   );
 };
