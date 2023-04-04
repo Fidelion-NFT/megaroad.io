@@ -30,7 +30,7 @@ const Block2 = () => (
         standard for the development of multiple
         series of Fidelion. Compared to the
         traditional mobile game market, which
-        one IP can be only used in one singe
+        one IP can be only used in one single
         game development, Mega Road has
         relatively higher potential to be expanded
         for numerous series of contents. This is
