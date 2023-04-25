@@ -33,7 +33,7 @@ const Block14 = () => (
       />
       <div style={text1}>
         Development{'\n'}
-        Stroy writer Hokyo Lim{'\n'}
+        Story writer Hokyo Lim{'\n'}
         Creative Director Hokyo Lim{'\n'}
         Art Director Hokyo Lim{'\n'}
         Artist Hokyo Lim{'\n'}
