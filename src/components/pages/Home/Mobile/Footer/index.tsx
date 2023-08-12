@@ -19,11 +19,11 @@ const Footer = () => (
     </a>
     <div style={{ minHeight: 120 }} />
     <div style={row}>
-      <a href="https://twitter.com/FidelionNFT" target="_blank">
+      <a href="https://twitter.com/MegaRoadGame" target="_blank">
         <img alt="twitter" src={`${CDN_URL}/202303/twitter_32x32.png`} style={snsIcon} />
       </a>
       <div style={{ minWidth: 28 }} />
-      <a href="http://discord.gg/fidelion" target="_blank">
+      <a href="https://discord.gg/ekkCRmEb" target="_blank">
         <img alt="discord" src={`${CDN_URL}/202303/discord_32x32.png`} style={snsIcon} />
       </a>
     </div>
