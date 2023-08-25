@@ -19,7 +19,7 @@ const Footer = () => (
     </a>
     <div style={{ minHeight: 120 }} />
     <div style={row}>
-      <a href="https://twitter.com/MegaRoadGame" target="_blank">
+      <a href="https://twitter.com/tidalflatstudio" target="_blank">
         <img alt="twitter" src={`${CDN_URL}/202303/twitter_32x32.png`} style={snsIcon} />
       </a>
       <div style={{ minWidth: 28 }} />
