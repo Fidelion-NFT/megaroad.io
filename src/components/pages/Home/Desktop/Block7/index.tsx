@@ -1,8 +1,8 @@
-import React from 'react';
+import React from "react";
 
-import { CDN_URL } from 'constants/values';
+import { CDN_URL } from "constants/values";
 
-import ImageList from '../ImageList';
+import ImageList from "../ImageList";
 import {
   aImage1,
   aImage2,
@@ -16,13 +16,16 @@ import {
   image6,
   image7,
   image8,
+  image9,
   text1,
   text2,
-} from './styles';
+  text3,
+} from "./styles";
 
 const imageList = [
   { style: image1, url: `${CDN_URL}/202303/block7-1_655x222.png` },
   { style: image2, url: `${CDN_URL}/202303/block7-2_100x104.png` },
+  { style: image9, url: `${CDN_URL}/202303/block7-9_144x144.png` },
   { style: image3, url: `${CDN_URL}/202303/block7-3_114x105.png` },
   { style: image4, url: `${CDN_URL}/202303/block7-4_70x68.png` },
   { style: image5, url: `${CDN_URL}/202303/block7-5_231x68.png` },
@@ -38,18 +41,17 @@ const Block7 = () => (
     <div style={body}>
       <ImageList imageList={imageList} />
       <div style={text1}>
-        Willi is ...{'\n'}
-        A brave warrior and man of action who{'\n'}
-        communicates without words. He has finally{'\n'}
-        achieved freedom after escaping from forced labor{'\n'}
-        and is now on his way to find his friend, Elaine.
+        Willy, a righteous brave warrior boy,{"\n"} Willie is a master of all
+        weapons.
       </div>
       <div style={text2}>
-        Mobi is ...{'\n'}
-        an Al-powered timid, old robot whom Willi{'\n'}
-        rescues from a group of big gangsters. After{'\n'}
-        gaining the ability to speak thanks to Jeffery,{'\n'}
-        Mobi becomes a loyal companion to Willi.
+        Jeffrey, A genius scientist, Jeffrey can{"\n"} create a variety of
+        weapons and machines{"\n"} with his brilliant mind,
+      </div>
+
+      <div style={text3}>
+        Moby, Despite his cute appearance, Moby{"\n"} is a little giant with
+        explosive weapons {"\n"}skills.
       </div>
     </div>
   </div>

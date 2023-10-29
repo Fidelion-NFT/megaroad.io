@@ -1,9 +1,9 @@
-import React, { CSSProperties } from 'react';
+import React, { CSSProperties } from "react";
 
-import ApngImage from 'components/atoms/ApngImage';
-import { CDN_URL } from 'constants/values';
+import ApngImage from "components/atoms/ApngImage";
+import { CDN_URL } from "constants/values";
 
-import ImageList from '../ImageList';
+import ImageList from "../ImageList";
 import {
   aImage1,
   aImage1Box1,
@@ -29,7 +29,7 @@ import {
   box1Text2,
   container,
   image1,
-} from './styles';
+} from "./styles";
 
 /*
 <ApngImage autoPlay src="/apng/boss-01.png" style={aImage3} />
@@ -42,16 +42,16 @@ import {
         <ApngImage autoPlay src="/apng/mon_009.png" style={aImage10} />
  */
 const imageList = [
-  { style: aImage3, url: '/apng/boss-01.png' },
-  { style: aImage4, url: '/apng/mon_011_attck.png' },
-  { style: aImage5, url: '/apng/mon-006.png' },
-  { style: aImage6, url: '/apng/mon_003.png' },
-  { style: aImage7, url: '/apng/mon-005.png' },
-  { style: aImage8, url: '/apng/mon_008.png' },
-  { style: aImage9, url: '/apng/mon-004.png' },
-  { style: aImage10, url: '/apng/mon_009.png' },
-  { style: aImage11, url: '/apng/mon11_idle.png' },
-  { style: aImage12, url: '/apng/mon-snake.png' },
+  { style: aImage3, url: "/apng/boss-01.png" },
+  { style: aImage4, url: "/apng/mon_011_attck.png" },
+  { style: aImage5, url: "/apng/mon-006.png" },
+  { style: aImage6, url: "/apng/mon_003.png" },
+  { style: aImage7, url: "/apng/mon-005.png" },
+  { style: aImage8, url: "/apng/mon_008.png" },
+  { style: aImage9, url: "/apng/mon-004.png" },
+  { style: aImage10, url: "/apng/mon_009.png" },
+  { style: aImage11, url: "/apng/mon11_idle.png" },
+  { style: aImage12, url: "/apng/mon-snake.png" },
 ];
 
 const Block2 = () => {
@@ -70,17 +70,31 @@ const Block2 = () => {
   return (
     <div style={container}>
       <div style={body}>
-        <img alt="block2" src={`${CDN_URL}/202303/block2-1_438x200.png`} style={image1} />
+        <img
+          alt="block2"
+          src={`${CDN_URL}/202303/block2-1_438x200.png`}
+          style={image1}
+        />
         <div style={box1}>
           <div style={box1Text1}>MEGA ROAD...</div>
           <div style={{ minHeight: 1 }} />
           <div style={box1Text2}>
-            aims to create a strong IP from a new standard for the development of multiple series of Fidelion. Compared to the traditional mobile game market, which one IP can be only used in one single game development, Mega Road has relatively higher potential to be{'\n'}
-            expanded for numerous series of contents. This is the first development game of Project Fidelion, and it will be a long-term game development project.{'\n\n'}
-
-            Mega Road will create a solid foundation for the entire project by organizing it in a specialized environment centered on blockchain and metaverse. This will lead the team to create a framework of the project and continuously releasing the outstanding games to increase the value of IP.{'\n\n'}
-
-            The main focus of the project is to form Solana's NFT community, which corresponds to IP value, and to create a scalable profit structure by creating mobile games based on highly loyal fans.
+            Every morning our trio is busy. Willie and Moby head out into the
+            fierce monster-
+            {"\n"} infested world to collect bolts to build more powerful
+            weapons.
+            <div style={{ height: 10 }} />
+            Along the way, they must earn resources to build their moving
+            fortress and reach
+            {"\n"}the paradise of their dreams.
+            <div style={{ height: 10 }} />
+            Jeffrey works tirelessly to create new weapons and protective
+            devices.
+            <div style={{ height: 10 }} />
+            Can Willie and his friends survive the monsters and find the
+            paradise of their dreams?
+            <div style={{ height: 10 }} />
+            Join Willy, Moby, and Jeffrey on their dream adventure.
           </div>
         </div>
         <div
