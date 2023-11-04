@@ -47,10 +47,10 @@ const Block4 = () => {
             There are young kids who dream of a world they've never seen, a
             utopia where life <br />
             still abounds.
-            {/* <br /> Willy, the righteous and brave master of weapons.
+            {/* <br /> Willi, the righteous and brave master of weapons.
             <br /> Jeffrey, a genius scientist who creates a variety of weapons
             and machines, <br />
-            Moby, a tiny fixer with explosive weapons skills that belies his
+            Mobi, a tiny fixer with explosive weapons skills that belies his
             cute appearance. */}
             <br /> The trio continues to search for the MEGA ROAD, the road to
             their dream paradise

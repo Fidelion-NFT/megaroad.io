@@ -35,7 +35,8 @@ const Block14 = () => (
         Artist Hokyo Lim, Jason Ju hoon Lee{"\n"}
         FX, Animator Eastone Jang{"\n"}
         UI Artist Seok GeunDeok, Rimma Deli{"\n"}
-        Production{"\n\n"}
+        {"\n"}
+        Production{"\n"}
         Prod. VP Ryot Seo{"\n"}
         Prod. Manager Haley{"\n"}
         Operation Lead, Staff Bella Youn, Sun{"\n"}

@@ -41,7 +41,7 @@ const Block7 = () => (
     <div style={body}>
       <ImageList imageList={imageList} />
       <div style={text1}>
-        Willy, a righteous brave warrior boy,{"\n"} Willie is a master of all
+        Willi, a righteous brave warrior boy,{"\n"} Willi is a master of all
         weapons.
       </div>
       <div style={text2}>
@@ -50,7 +50,7 @@ const Block7 = () => (
       </div>
 
       <div style={text3}>
-        Moby, Despite his cute appearance, Moby{"\n"} is a little giant with
+        Mobi, Despite his cute appearance, Mobi{"\n"} is a little giant with
         explosive weapons {"\n"}skills.
       </div>
     </div>

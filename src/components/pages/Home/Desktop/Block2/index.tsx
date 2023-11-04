@@ -79,7 +79,7 @@ const Block2 = () => {
           <div style={box1Text1}>MEGA ROAD...</div>
           <div style={{ minHeight: 1 }} />
           <div style={box1Text2}>
-            Every morning our trio is busy. Willie and Moby head out into the
+            Every morning our trio is busy. Willi and Mobi head out into the
             fierce monster-
             {"\n"} infested world to collect bolts to build more powerful
             weapons.
@@ -91,10 +91,10 @@ const Block2 = () => {
             Jeffrey works tirelessly to create new weapons and protective
             devices.
             <div style={{ height: 10 }} />
-            Can Willie and his friends survive the monsters and find the
-            paradise of their dreams?
+            Can Willi and his friends survive the monsters and find the paradise
+            of their dreams?
             <div style={{ height: 10 }} />
-            Join Willy, Moby, and Jeffrey on their dream adventure.
+            Join Willi, Mobi, and Jeffrey on their dream adventure.
           </div>
         </div>
         <div
