@@ -1,10 +1,10 @@
-import React, { useRef, useState } from 'react';
+import React, { useRef, useState } from "react";
 
-import ApngImage from 'components/atoms/ApngImage';
-import { ApngPlayer } from 'constants/types';
-import { CDN_URL } from 'constants/values';
+import ApngImage from "components/atoms/ApngImage";
+import { ApngPlayer } from "constants/types";
+import { CDN_URL } from "constants/values";
 
-import ImageList from '../ImageList';
+import ImageList from "../ImageList";
 import {
   aImage1,
   aImage2,
@@ -13,17 +13,14 @@ import {
   image1,
   text1,
   text2,
-} from './styles';
+} from "./styles";
 
 const imageList = [
   { style: image1, url: `${CDN_URL}/202303/block8-3_1440x658.png` },
   { style: aImage1, url: `/apng/telescopic eye.png` },
 ];
 
-const aImage2List = [
-  '/apng/monitor_loop.png',
-  '/apng/monitor_shutdown.png',
-];
+const aImage2List = ["/apng/monitor_loop.png", "/apng/monitor_shutdown.png"];
 
 const Block8 = () => {
   const ref1 = useRef<ApngPlayer>(null);
@@ -48,22 +45,22 @@ const Block8 = () => {
           style={aImage2}
         />
         <div style={text1}>
-          Jeffery is …{'\n'}
-          an intelligent and eccentric{'\n'}
-          scientist who has{'\n'}
-          experienced tragedy.{'\n'}
-          Despite being confined to a{'\n'}
-          wheelchair due to an{'\n'}
-          unfortunate accident, her{'\n'}
+          Jeffrey is …{"\n"}
+          an intelligent and eccentric{"\n"}
+          scientist who has{"\n"}
+          experienced tragedy.{"\n"}
+          Despite being confined to a{"\n"}
+          wheelchair due to an{"\n"}
+          unfortunate accident, her{"\n"}
           creativity knows no bounds.
         </div>
         <div style={text2}>
-          Jeffery collects{'\n'}
-          abandoned{'\n'}
-          mechanical{'\n'}
-          parts to create{'\n'}
-          new weapons in{'\n'}
-          her atomic{'\n'}
+          Jeffrey collects{"\n"}
+          abandoned{"\n"}
+          mechanical{"\n"}
+          parts to create{"\n"}
+          new weapons in{"\n"}
+          her atomic{"\n"}
           bomb house.
         </div>
       </div>

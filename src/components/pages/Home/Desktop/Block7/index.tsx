@@ -45,7 +45,7 @@ const Block7 = () => (
         weapons.
       </div>
       <div style={text2}>
-        Jeffery, A genius scientist, Jeffery can{"\n"} create a variety of
+        Jeffrey, A genius scientist, Jeffrey can{"\n"} create a variety of
         weapons and machines{"\n"} with his brilliant mind,
       </div>
 
