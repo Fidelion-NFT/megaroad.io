@@ -45,17 +45,16 @@ const Block8 = () => {
           style={aImage2}
         />
         <div style={text1}>
-          Jeffrey is …{"\n"}
-          an intelligent and eccentric{"\n"}
-          scientist who has{"\n"}
-          experienced tragedy.{"\n"}
-          Despite being confined to a{"\n"}
-          wheelchair due to an{"\n"}
-          unfortunate accident, her{"\n"}
-          creativity knows no bounds.
+          Jeffery is busy today creating {"\n"}
+          powerful weapons for Willi {"\n"}
+          and Mobi. Her intellectual {"\n"}
+          pursuits are matched only by {"\n"}
+          her culinary craziness.{"\n"}
+          Her spaghetti and pizza are {"\n"}
+          some of the best on the planet.
         </div>
         <div style={text2}>
-          Jeffrey collects{"\n"}
+          Jeffery collects{"\n"}
           abandoned{"\n"}
           mechanical{"\n"}
           parts to create{"\n"}

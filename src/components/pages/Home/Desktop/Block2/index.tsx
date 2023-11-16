@@ -88,13 +88,13 @@ const Block2 = () => {
             fortress and reach
             {"\n"}the paradise of their dreams.
             <div style={{ height: 10 }} />
-            Jeffrey works tirelessly to create new weapons and protective
+            Jeffery works tirelessly to create new weapons and protective
             devices.
             <div style={{ height: 10 }} />
             Can Willi and his friends survive the monsters and find the paradise
             of their dreams?
             <div style={{ height: 10 }} />
-            Join Willi, Mobi, and Jeffrey on their dream adventure.
+            Join Willi, Mobi, and Jeffery on their dream adventure.
           </div>
         </div>
         <div

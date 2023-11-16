@@ -1,12 +1,8 @@
-import React from 'react';
+import React from "react";
 
-import { CDN_URL_M } from 'constants/values';
+import { CDN_URL_M } from "constants/values";
 
-import {
-  body,
-  container,
-  topDee,
-} from './styles';
+import { body, container, topDee } from "./styles";
 
 const Block8 = () => (
   <div style={container}>
@@ -16,9 +12,9 @@ const Block8 = () => (
         alt="mobile"
         src={`${CDN_URL_M}/8-2.png`}
         style={{
-          display: 'flex',
-          verticalAlign: 'center',
-          width: '100%',
+          display: "flex",
+          verticalAlign: "center",
+          width: "100%",
         }}
       />
     </div>

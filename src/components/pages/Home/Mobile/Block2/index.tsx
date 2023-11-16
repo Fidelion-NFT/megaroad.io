@@ -1,7 +1,7 @@
-import React from 'react';
+import React from "react";
 
-import ImageList from 'components/pages/Home/Desktop/ImageList';
-import { CDN_URL_M } from 'constants/values';
+import ImageList from "components/pages/Home/Desktop/ImageList";
+import { CDN_URL_M } from "constants/values";
 
 import {
   aImageBoss01,
@@ -12,7 +12,7 @@ import {
   container,
   image1,
   text1,
-} from './styles';
+} from "./styles";
 
 const imageList = [
   { style: image1, url: `${CDN_URL_M}/m-block2-image1_319x146.png` },
@@ -26,37 +26,31 @@ const Block2 = () => (
       <div style={{ minHeight: 3 }} />
       <div style={text1}>MEGA ROAD...</div>
       <div style={text1}>
-        aims to create a strong IP from a new
-        standard for the development of multiple
-        series of Fidelion. Compared to the
-        traditional mobile game market, which
-        one IP can be only used in one single
-        game development, Mega Road has
-        relatively higher potential to be expanded
-        for numerous series of contents. This is
-        the first development game of Project
-        Fidelion, and it will be a long-term game
-        development project.{'\n'}{'\n'}
-
-        Mega Road will create a solid foundation
-        for the entire project by organizing it in a
-        specialized environment centered on
-        blockchain and metaverse. This will lead
-        the team to create a framework of the
-        project and continuously releasing the
-        outstanding games to increase the value
-        of IP.{'\n'}{'\n'}
-
-        The main focus of the project is to form
-        Solana's NFT community, which
-        corresponds to IP value, and to create a
-        scalable profit structure by creating
-        mobile games based on highly loyal fans.
+        Every morning our trio is busy. Willi and Mobi head out into the fierce
+        monster-infested world to collect bolts to build more powerful weapons.
+        {"\n"}
+        {"\n"}
+        Along the way, they must earn resources to build their moving fortress
+        and reach the paradise of their dreams.{"\n"}
+        {"\n"}
+        Jeffery works tirelessly to create new weapons and protective devices.
+        {"\n"}
+        {"\n"}
+        Can Willi and his friends survive the monsters and find the paradise of
+        their dreams?
+        {"\n"}
+        {"\n"}
+        Join Willi, Mobi, and Jeffery on their dream adventure.
       </div>
       <div style={{ minHeight: 26 }} />
       <div style={animationLine1}>
         {Array.from({ length: 3 }).map((_, idx) => (
-          <img alt="mon007" key={idx.toString()} src="/apng/mon_007.png" style={aImageMon007} />
+          <img
+            alt="mon007"
+            key={idx.toString()}
+            src="/apng/mon_007.png"
+            style={aImageMon007}
+          />
         ))}
       </div>
       <div style={{ minHeight: 9 }} />

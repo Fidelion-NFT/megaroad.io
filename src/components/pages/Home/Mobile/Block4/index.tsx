@@ -1,17 +1,12 @@
-import React from 'react';
+import React from "react";
 
-import ImageList from 'components/pages/Home/Desktop/ImageList';
-import { CDN_URL_M } from 'constants/values';
+import ImageList from "components/pages/Home/Desktop/ImageList";
+import { CDN_URL_M } from "constants/values";
 
-import {
-  aImage1,
-  body,
-  container,
-  image1,
-} from './styles';
+import { aImage1, body, container, image1 } from "./styles";
 
 const imageList = [
-  { style: image1, url: `${CDN_URL_M}/m-block4-image1_306x833.png`},
+  { style: image1, url: `${CDN_URL_M}/m-block4-image1_306x833.png` },
 ];
 
 const Block4 = () => (

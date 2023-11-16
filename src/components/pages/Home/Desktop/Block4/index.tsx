@@ -48,7 +48,7 @@ const Block4 = () => {
             utopia where life <br />
             still abounds.
             {/* <br /> Willi, the righteous and brave master of weapons.
-            <br /> Jeffrey, a genius scientist who creates a variety of weapons
+            <br /> Jeffery, a genius scientist who creates a variety of weapons
             and machines, <br />
             Mobi, a tiny fixer with explosive weapons skills that belies his
             cute appearance. */}

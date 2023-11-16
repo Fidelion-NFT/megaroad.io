@@ -1,21 +1,21 @@
-import React from 'react';
+import React from "react";
 
-import { CDN_URL_M } from 'constants/values';
+import { CDN_URL_M } from "constants/values";
 
-import Block1 from './Block1';
-import Block2 from './Block2';
-import Block3 from './Block3';
-import Block4 from './Block4';
-import Block6 from './Block6';
-import Block8 from './Block8';
-import Block10 from './Block10';
-import Footer from './Footer';
-import Header from './Header';
-import ImageBlock from './ImageBlock';
-import SoundButton from './SoundButton';
+import Block1 from "./Block1";
+import Block2 from "./Block2";
+import Block3 from "./Block3";
+import Block4 from "./Block4";
+import Block6 from "./Block6";
+import Block8 from "./Block8";
+import Block10 from "./Block10";
+import Footer from "./Footer";
+import Header from "./Header";
+import ImageBlock from "./ImageBlock";
+import SoundButton from "./SoundButton";
 
 const MobileHome = () => (
-  <div style={{ overflow: 'hidden' }}>
+  <div style={{ overflow: "hidden" }}>
     <SoundButton />
     <Header />
     <Block1 />
