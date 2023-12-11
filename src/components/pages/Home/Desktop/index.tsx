@@ -18,13 +18,17 @@ import Block15 from './Block15';
 import Footer from './Footer';
 import Menu from './Menu';
 import SoundButton from './SoundButton';
+import FixedLeft from "./FixedLeft";
+import GameInfo from "./GameInfo";
 
 const Desktop = () => {
   return (
-    <>
-      <Menu />
-      <div style={{ minHeight: 140 }} />
+    <div  style={{position: 'relative'}}>
+      {/*<Menu />*/}
+        <FixedLeft />
+      {/*<div style={{ minHeight: 140 }} />*/}
       <Block1 />
+        <GameInfo/>
       <Block2 />
       <Block3 />
       <Block4 />
@@ -41,7 +45,7 @@ const Desktop = () => {
       <Block15 />
       <Footer />
       <SoundButton />
-    </>
+    </div>
   );
 };
 

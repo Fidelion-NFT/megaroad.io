@@ -3,16 +3,19 @@ import React, { useRef } from 'react';
 import ApngImage from 'components/atoms/ApngImage';
 import { ApngPlayer } from 'constants/types';
 import { CDN_URL } from 'constants/values';
+import appleDownload from 'assets/apple.svg';
+import googleDownload from 'assets/google.svg';
 
 import DirectedBy from '../DirectedBy';
 import {
   aImage1,
-  aImage2,
+  aImage2, appleDownLoadImage,
   body,
-  container,
+  container, googleDownLoadImage,
   image1,
   image2,
 } from './styles';
+import * as url from "url";
 
 const Block1 = () => {
   const ref1 = useRef<ApngPlayer>(null);
@@ -30,12 +33,19 @@ const Block1 = () => {
           src={`${CDN_URL}/202303/block1/block1-2_491x576.png`}
           style={image2}
         />
+        <img alt="block1" src={appleDownload} style={appleDownLoadImage} onClick={()=>{
+          window.open('https://apps.apple.com/us/app/mega-road-roguelike-arpg/id6464222073')
+
+        }}/>
+        <img alt="block1" src={googleDownload} style={googleDownLoadImage} onClick={()=>{
+          window.open('https://play.google.com/store/apps/details?id=studio.tidalflats.android.megaroad&pcampaignid=web_share')
+        }}/>
         <DirectedBy
           gap={4}
           style={{
             position: 'absolute',
             right: 677,
-            top: 445,
+            top: 490,
           }}
         />
         <ApngImage

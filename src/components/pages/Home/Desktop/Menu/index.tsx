@@ -1,6 +1,6 @@
 import React from 'react';
 
-import { CDN_URL } from 'constants/values';
+import logoImage from 'assets/logo.png';
 
 import FixedLeft from '../FixedLeft';
 import {
@@ -22,20 +22,19 @@ const Menu = () => (
   <div style={container}>
     <div style={body}>
       <FixedLeft />
-      <img alt="mega-load" src={`${CDN_URL}/202303/megaload_128x108.png`} style={megaLoad} />
       <div style={{ minWidth: 140 }} />
-      {menuList.map(({ isActive, text1 }, idx) => (
-        <div
-          key={idx.toString()}
-          style={{
-            ...menuText,
-            ...isActive && { color: '#00E387' },
-            ...idx > 0 && { marginLeft: 55 },
-          }}
-        >
-          {text1}
-        </div>
-      ))}
+      {/*{menuList.map(({ isActive, text1 }, idx) => (*/}
+      {/*  <div*/}
+      {/*    key={idx.toString()}*/}
+      {/*    style={{*/}
+      {/*      ...menuText,*/}
+      {/*      ...isActive && { color: '#00E387' },*/}
+      {/*      ...idx > 0 && { marginLeft: 55 },*/}
+      {/*    }}*/}
+      {/*  >*/}
+      {/*    {text1}*/}
+      {/*  </div>*/}
+      {/*))}*/}
     </div>
   </div>
 );

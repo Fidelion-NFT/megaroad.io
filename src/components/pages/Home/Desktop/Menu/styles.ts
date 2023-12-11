@@ -4,7 +4,7 @@ import { bodyWidth } from 'constants/values';
 import { getTextStyle } from 'styles/text';
 
 export const container: CSSProperties = {
-  backgroundColor: '#fff',
+  backgroundColor: 'transparent',
   left: 0,
   position: 'fixed',
   top: 0,
@@ -26,8 +26,10 @@ export const body: CSSProperties = {
 
 export const megaLoad: CSSProperties = {
   cursor: 'pointer',
+  position: 'absolute',
   height: 98,
   width: 116,
+  top: -130,
 };
 
 export const menuText: CSSProperties = {
