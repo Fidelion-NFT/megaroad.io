@@ -14,7 +14,7 @@ export const body: CSSProperties = {
 
 export const image1: CSSProperties = {
   ...horizontalCenter,
-  width: 491,
+  width: 312,
 };
 
 export const image2: CSSProperties = {

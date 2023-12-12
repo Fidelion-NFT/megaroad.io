@@ -34,11 +34,11 @@ const Block1 = () => {
           style={image2}
         />
         <img alt="block1" src={appleDownload} style={appleDownLoadImage} onClick={()=>{
-          window.open('https://apps.apple.com/us/app/mega-road-roguelike-arpg/id6464222073')
+          window.open('https://apps.apple.com/us/app/mega-road-roguelike-arpg/id6464222073');
 
         }}/>
         <img alt="block1" src={googleDownload} style={googleDownLoadImage} onClick={()=>{
-          window.open('https://play.google.com/store/apps/details?id=studio.tidalflats.android.megaroad&pcampaignid=web_share')
+          window.open('https://play.google.com/store/apps/details?id=studio.tidalflats.android.megaroad&pcampaignid=web_share');
         }}/>
         <DirectedBy
           gap={4}

@@ -1,6 +1,6 @@
 import {container, body,image1,image2} from "./styles";
-import game1Image from 'assets/game1.png';
-import game2Image from 'assets/game2.png';
+import game1Image from 'assets/Desktop/GameInfo/game1.png';
+import game2Image from 'assets/Desktop/GameInfo/game2.png';
 const GameInfo = () => (
     <div style={container}>
         <div style={body}>

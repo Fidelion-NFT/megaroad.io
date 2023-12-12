@@ -24,9 +24,9 @@ export const image1: CSSProperties = {
 };
 
 export const image2: CSSProperties = {
-  height: 270,
-  left: 280,
+  left: 230,
   position: 'absolute',
   top: 328,
-  width: 880,
+  width: 1138,
+  height: 276,
 };

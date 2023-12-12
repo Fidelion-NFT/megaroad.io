@@ -2,16 +2,18 @@ import { CSSProperties } from 'react';
 
 export const container: CSSProperties = {
   alignItems: 'center',
-  display: 'flex',
+  position: 'relative',
   flexDirection: 'row',
-  height: 60,
   justifyContent: 'space-between',
   padding: '0 20px',
 };
 
 export const image1: CSSProperties = {
-  height: 34,
-  width: 48,
+  width: 66,
+  height: 46.75,
+  position: 'fixed',
+  left: 18,
+  top: 20,
 };
 
 export const image2: CSSProperties = {
@@ -21,10 +23,10 @@ export const image2: CSSProperties = {
 
 export const fixedLeft1: CSSProperties = {
   cursor: 'pointer',
-  height: 123,
-  left: 18,
   position: 'fixed',
+  left: 18,
   top: 80,
   width: 66,
+  height: 123,
   zIndex: 9999,
 };
